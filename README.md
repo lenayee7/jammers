@@ -3,11 +3,9 @@
 * Ruby version - ruby 4.2.6
 
 ## MVP
-- [X] Create User Account 
+- [X] Create User Account - Admin & Player  
 - [X] Log in / Log out
-- [X] User can create a trip 
-- [X] User can add posts to a trip
-- [X] Models - User, Trip & Post has CRUD functions
+- [X] User does not have Admin accessibility
 
 ## Description
 
