@@ -8,6 +8,10 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
   get '/clinics', to: 'home#clinics'
+  get '/calendar', to: 'home#calendar'
+  get '/locations', to: 'home#locations'
+  get '/registration', to: 'home#registration'
+  get '/juniors', to: 'home#juniors'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

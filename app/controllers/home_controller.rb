@@ -7,5 +7,22 @@ class HomeController < ApplicationController
   def clinics
     render :clinics
   end
+
+  def calendar
+    render :calendar
+  end
+
+  def locations
+    render :locations
+  end
+
+  def registration
+    render :registration
+  end
+
+  def juniors
+    render :juniors
+  end
+
   
 end
