@@ -1,0 +1,804 @@
+/* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+body {
+  font-family: "Mitr", sans-serif;
+  background-color: #000;
+  padding-top: 0;
+  color: #eee;
+}
+
+/* line 26, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* line 29, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.container-fluid {
+  text-align: center;
+}
+
+/* line 32, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+a {
+  color: #1098dc;
+  font-size: 1.4em;
+  font-size: 1em;
+}
+
+/* line 41, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 45, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-default {
+  background-color: none;
+  border-color: none;
+}
+
+/* line 49, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar {
+  margin: 0 auto;
+}
+
+/* line 52, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+/* line 56, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* line 59, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.dropdown-menu {
+  min-width: 117px;
+}
+
+/* line 62, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo {
+  position: relative;
+}
+/* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .jammers-img {
+  width: 60%;
+  height: 80px;
+}
+@media screen and (max-width: 1050px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 60%;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 80%;
+    height: 60px;
+  }
+}
+/* line 75, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo #social-icons {
+  margin-top: 2%;
+  position: relative;
+  top: -7px;
+  left: 40px;
+  display: inline-block;
+  color: #ce327f;
+  cursor: pointer;
+}
+/* line 84, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .navbar-toggle-btn {
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+/* line 89, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-facebook-square.fa-2x:hover {
+  color: #3b5998;
+}
+
+/* line 91, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-instagram.fa-2x:hover {
+  color: #751FD1;
+}
+
+/* line 93, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-envelope-o.fa-2x:hover {
+  color: #B81512;
+}
+
+/* line 95, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-camera-retro.fa-2x:hover {
+  color: #CCB825;
+}
+
+/* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hibiscus {
+  position: relative;
+  top: -25px;
+  right: -15px;
+  width: 3%;
+}
+@media screen and (max-width: 525px) {
+  /* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .hibiscus {
+    width: 5%;
+  }
+}
+
+/* line 106, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.padding-2 {
+  padding: 2% 0 0;
+}
+
+/* line 109, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li {
+  display: inline-block;
+  background-color: #000;
+}
+
+/* line 113, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li > a {
+  font-size: 1.2em;
+  font-family: "Mitr", sans-serif;
+  text-decoration: underline;
+  padding: 5px 5px;
+}
+
+/* line 120, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 124, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.home-content {
+  color: #000;
+}
+
+/* line 127, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn {
+  background-color: #1098dc;
+}
+
+/* line 130, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn:hover {
+  background-color: #ce327f;
+}
+
+/* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+header.carousel {
+  height: 100%;
+}
+@media screen and (max-width: 525px) {
+  /* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  header.carousel {
+    height: 40%;
+  }
+}
+
+/* line 141, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.caption-text {
+  float: right;
+}
+
+/* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.img-size {
+  min-width: 100%;
+  height: 250px;
+}
+@media screen and (max-width: 995px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 525px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: auto;
+  }
+}
+
+/* line 162, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+footer > ul > li > a {
+  font-size: 1.2em;
+}
+
+/* line 165, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1%;
+  width: none;
+}
+
+/* line 171, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hi-islands-logo {
+  width: 7%;
+}
+
+/* line 7, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.locations-header h2 {
+  color: #8fec1b;
+}
+
+/* line 11, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.clinics-header h2 {
+  color: #f3510e;
+}
+
+/* line 15, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.calendar-header h2 {
+  color: #bda107;
+}
+
+/* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.juniors-header h2 {
+  color: #751FD1;
+}
+
+/* line 26, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.clinics-div .inner-section h4 {
+  color: #f3510e;
+}
+
+/* line 31, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/header.sass */
+.juniors-div .inner-section h4 {
+  color: #751FD1;
+}
+/* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+body {
+  font-family: "Mitr", sans-serif;
+  background-color: #000;
+  padding-top: 0;
+  color: #eee;
+}
+
+/* line 26, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* line 29, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.container-fluid {
+  text-align: center;
+}
+
+/* line 32, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+a {
+  color: #1098dc;
+  font-size: 1.4em;
+  font-size: 1em;
+}
+
+/* line 41, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 45, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-default {
+  background-color: none;
+  border-color: none;
+}
+
+/* line 49, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar {
+  margin: 0 auto;
+}
+
+/* line 52, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+/* line 56, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* line 59, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.dropdown-menu {
+  min-width: 117px;
+}
+
+/* line 62, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo {
+  position: relative;
+}
+/* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .jammers-img {
+  width: 60%;
+  height: 80px;
+}
+@media screen and (max-width: 1050px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 60%;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 80%;
+    height: 60px;
+  }
+}
+/* line 75, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo #social-icons {
+  margin-top: 2%;
+  position: relative;
+  top: -7px;
+  left: 40px;
+  display: inline-block;
+  color: #ce327f;
+  cursor: pointer;
+}
+/* line 84, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .navbar-toggle-btn {
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+/* line 89, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-facebook-square.fa-2x:hover {
+  color: #3b5998;
+}
+
+/* line 91, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-instagram.fa-2x:hover {
+  color: #751FD1;
+}
+
+/* line 93, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-envelope-o.fa-2x:hover {
+  color: #B81512;
+}
+
+/* line 95, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-camera-retro.fa-2x:hover {
+  color: #CCB825;
+}
+
+/* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hibiscus {
+  position: relative;
+  top: -25px;
+  right: -15px;
+  width: 3%;
+}
+@media screen and (max-width: 525px) {
+  /* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .hibiscus {
+    width: 5%;
+  }
+}
+
+/* line 106, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.padding-2 {
+  padding: 2% 0 0;
+}
+
+/* line 109, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li {
+  display: inline-block;
+  background-color: #000;
+}
+
+/* line 113, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li > a {
+  font-size: 1.2em;
+  font-family: "Mitr", sans-serif;
+  text-decoration: underline;
+  padding: 5px 5px;
+}
+
+/* line 120, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 124, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.home-content {
+  color: #000;
+}
+
+/* line 127, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn {
+  background-color: #1098dc;
+}
+
+/* line 130, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn:hover {
+  background-color: #ce327f;
+}
+
+/* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+header.carousel {
+  height: 100%;
+}
+@media screen and (max-width: 525px) {
+  /* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  header.carousel {
+    height: 40%;
+  }
+}
+
+/* line 141, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.caption-text {
+  float: right;
+}
+
+/* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.img-size {
+  min-width: 100%;
+  height: 250px;
+}
+@media screen and (max-width: 995px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 525px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: auto;
+  }
+}
+
+/* line 162, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+footer > ul > li > a {
+  font-size: 1.2em;
+}
+
+/* line 165, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1%;
+  width: none;
+}
+
+/* line 171, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hi-islands-logo {
+  width: 7%;
+}
+/* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+body {
+  font-family: "Mitr", sans-serif;
+  background-color: #000;
+  padding-top: 0;
+  color: #eee;
+}
+
+/* line 26, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* line 29, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.container-fluid {
+  text-align: center;
+}
+
+/* line 32, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+a {
+  color: #1098dc;
+  font-size: 1.4em;
+  font-size: 1em;
+}
+
+/* line 41, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 45, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-default {
+  background-color: none;
+  border-color: none;
+}
+
+/* line 49, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar {
+  margin: 0 auto;
+}
+
+/* line 52, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+/* line 56, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* line 59, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.dropdown-menu {
+  min-width: 117px;
+}
+
+/* line 62, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo {
+  position: relative;
+}
+/* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .jammers-img {
+  width: 60%;
+  height: 80px;
+}
+@media screen and (max-width: 1050px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 60%;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 64, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .header-logo .jammers-img {
+    width: 80%;
+    height: 60px;
+  }
+}
+/* line 75, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo #social-icons {
+  margin-top: 2%;
+  position: relative;
+  top: -7px;
+  left: 40px;
+  display: inline-block;
+  color: #ce327f;
+  cursor: pointer;
+}
+/* line 84, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.header-logo .navbar-toggle-btn {
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+/* line 89, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-facebook-square.fa-2x:hover {
+  color: #3b5998;
+}
+
+/* line 91, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-instagram.fa-2x:hover {
+  color: #751FD1;
+}
+
+/* line 93, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-envelope-o.fa-2x:hover {
+  color: #B81512;
+}
+
+/* line 95, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.fa.fa-camera-retro.fa-2x:hover {
+  color: #CCB825;
+}
+
+/* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hibiscus {
+  position: relative;
+  top: -25px;
+  right: -15px;
+  width: 3%;
+}
+@media screen and (max-width: 525px) {
+  /* line 98, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .hibiscus {
+    width: 5%;
+  }
+}
+
+/* line 106, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.padding-2 {
+  padding: 2% 0 0;
+}
+
+/* line 109, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li {
+  display: inline-block;
+  background-color: #000;
+}
+
+/* line 113, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.nav > li > a {
+  font-size: 1.2em;
+  font-family: "Mitr", sans-serif;
+  text-decoration: underline;
+  padding: 5px 5px;
+}
+
+/* line 120, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.center {
+  margin: 0 auto;
+}
+
+/* line 124, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.home-content {
+  color: #000;
+}
+
+/* line 127, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn {
+  background-color: #1098dc;
+}
+
+/* line 130, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.register-btn:hover {
+  background-color: #ce327f;
+}
+
+/* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+header.carousel {
+  height: 100%;
+}
+@media screen and (max-width: 525px) {
+  /* line 135, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  header.carousel {
+    height: 40%;
+  }
+}
+
+/* line 141, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.caption-text {
+  float: right;
+}
+
+/* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.img-size {
+  min-width: 100%;
+  height: 250px;
+}
+@media screen and (max-width: 995px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 525px) {
+  /* line 146, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+  .img-size {
+    height: auto;
+  }
+}
+
+/* line 162, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+footer > ul > li > a {
+  font-size: 1.2em;
+}
+
+/* line 165, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1%;
+  width: none;
+}
+
+/* line 171, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/home.sass */
+.hi-islands-logo {
+  width: 7%;
+}
+
+/* line 3, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* line 6, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.clinic-photos {
+  width: 50%;
+  margin: 0 auto 2%;
+}
+/* line 9, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.clinic-photos .clinic-img-size {
+  width: 50%;
+}
+@media screen and (max-width: 1050px) {
+  /* line 9, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+  .clinic-photos .clinic-img-size {
+    display: none;
+  }
+}
+
+/* line 14, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.admin-email {
+  font-size: 1em;
+}
+
+/* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+section {
+  position: relative;
+  border: 1px solid #eee;
+  margin: 2% auto 0;
+  width: 70%;
+}
+@media screen and (max-width: 525px) {
+  /* line 19, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+  section {
+    width: 90%;
+  }
+}
+/* line 26, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+section .inner-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4% 0;
+}
+/* line 30, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+section .inner-section h4 {
+  color: #8fec1b;
+  margin-bottom: 0;
+}
+/* line 33, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+section .inner-section span {
+  font-size: 1.5em;
+}
+
+/* line 36, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+p {
+  font-size: 1.2em;
+}
+
+/* line 41, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.calendar-container .iframe-calendar {
+  max-width: 100%;
+}
+
+/* line 47, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.registration {
+  width: 30%;
+}
+
+/* line 54, /Users/Lena/ga-sf/lena-github/jammers-vbc/app/assets/stylesheets/pages/pages.sass */
+.youtube-video .iframe-youtube {
+  max-width: 100%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+ */
