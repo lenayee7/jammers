@@ -76,7 +76,7 @@ a:hover
     margin-top: 2%
     position: relative
     top: -7px
-    left: 40px
+    left: 16px
     display: inline-block
     color: #ce327f
     cursor: pointer
@@ -105,6 +105,8 @@ a:hover
 
 .padding-2
   padding: 2% 0 0 
+  @media screen and (max-width: 525px) 
+    padding: 4% 0 0 
 
 .nav>li
   display: inline-block
@@ -161,6 +163,10 @@ header.carousel
 ///////// FOOTER ///////
 footer > ul > li > a
   font-size: 1.2em
+
+footer
+  ul
+    padding-left: 0
 
 li 
   list-style: none
