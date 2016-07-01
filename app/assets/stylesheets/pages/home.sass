@@ -5,6 +5,7 @@ $center: 0 auto
 $navbar-font: 'Mitr', sans-serif
 $body-color: #eee
 $orbitron: 'Orbitron', sans-serif
+$one-em: 1em
 
 // @media screen and (max-width: 320px)
 
@@ -35,10 +36,7 @@ a
   @media screen and (max-width: 850px)
   font-size: 1em
 
-a:hover
-  // color: #ce327f
-
-.center 
+.center
   margin: $center
 
 //////// NAVBAR ///////
@@ -47,7 +45,11 @@ a:hover
   border-color: none 
 
 .navbar
-  margin: $center
+  margin: 0 auto 0
+
+.navbar-border
+  border-bottom: 2px solid #eee
+  margin: 0 auto 3%
 
 .navbar-toggle
   background-color: #eee
@@ -61,25 +63,26 @@ a:hover
 
 .header-logo
   position: relative
+  right: 22px
   .jammers-img
     width: 60%
     height: 80px
-
     @media screen and (max-width: 1050px) 
       width: 60%
       height: 70px
     @media screen and (max-width: 768px) 
       width: 80%
       height: 60px
-
   #social-icons
-    margin-top: 2%
+    margin-top: .5%
     position: relative
-    top: -7px
-    left: 16px
-    display: inline-block
+    left: 25px
     color: #ce327f
     cursor: pointer
+    @media screen and (max-width: 990px) 
+      left: 20px
+    @media screen and (max-width: 525px)
+      display: none 
 
   .navbar-toggle-btn
     position: relative
@@ -98,7 +101,7 @@ a:hover
 .hibiscus
   position: relative
   top: -25px
-  right: -15px
+  right: -18px
   width: 3%
   @media screen and (max-width: 525px) 
     width: 5%
@@ -109,15 +112,29 @@ a:hover
     padding: 4% 0 0 
 
 .nav>li
+  margin-right: 0
   display: inline-block
   background-color: #000
 
 .nav>li>a
-  font-size: 1.2em
-  font-family: $navbar-font
+  width: 110px
+  background-color: #eee
+  font-weight: bolder
+  font-size: 1.1em
+  font-family: $orbitron
   text-decoration: underline
-  @media screen and (max-width: 525px) 
-  padding: 5px 5px
+  margin-bottom: 4%
+  padding: 2px 5px
+  border-radius: 10px
+  @media screen and (max-width: 768px)
+    width: 100px
+    font-size: .9em
+  @media screen and (max-width: 525px)
+    width: 75px
+    padding: 1px 2px
+
+.nav>li>a:hover
+  color: white
 
 .center 
   margin: $center
@@ -157,7 +174,7 @@ header.carousel
     height: 400px
     // height: auto
   @media screen and (max-width: 525px)
-    height: auto
+    height: 278px
 
 
 ///////// FOOTER ///////
@@ -166,7 +183,15 @@ footer > ul > li > a
 
 footer
   ul
-    padding-left: 0
+    @media screen and (max-width: 525px)
+      padding-left: 0
+
+footer > ul > li > a
+  font-size: $one-em
+  font-family: $orbitron
+
+.font-size-1em
+  font-size: $one-em
 
 li 
   list-style: none
