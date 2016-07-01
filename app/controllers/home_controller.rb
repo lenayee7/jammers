@@ -24,5 +24,10 @@ class HomeController < ApplicationController
     render :juniors
   end
 
+  def teams
+    render :juniors
+  end
+
+
   
 end
