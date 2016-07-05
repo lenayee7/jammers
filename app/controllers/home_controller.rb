@@ -25,7 +25,15 @@ class HomeController < ApplicationController
   end
 
   def teams
-    render :juniors
+    render :teams
+  end
+
+  def tryouts
+    render :tryouts
+  end
+
+  def fees
+    render :fees
   end
 
 

@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get '/registration', to: 'home#registration'
   get '/juniors', to: 'home#juniors'
   get '/teams', to: 'home#teams'
+  get '/tryouts', to: 'home#tryouts'
+  get '/fees', to: 'home#fees'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
